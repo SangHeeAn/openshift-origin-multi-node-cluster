@@ -1,6 +1,6 @@
 # OpenShift Origin Multi-Node Cluster
 
-An OpenShift 3.6 cluster of 5 machine:
+An OpenShift 3.7 cluster of 5 machine:
 
 | Machine  | Hostname          | IP             | Description |
 | :------- | :----             | :---:          | :---- |
