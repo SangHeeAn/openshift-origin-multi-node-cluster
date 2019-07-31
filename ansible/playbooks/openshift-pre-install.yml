@@ -7,8 +7,8 @@
   tasks:        
     - name: Install OpenShift Repositories on All Nodes
       yum:
-        name: centos-release-openshift-origin
-        state: latest
+        name: centos-release-openshift-origin37
+        state: present
     
     - name: List Repositories
       command: yum repolist
