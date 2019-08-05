@@ -145,6 +145,20 @@ Connect to the Toolbox machine as root, and make sure that Ansible can reach to 
 ansible cluster -m ping
 ```
 
+### Hosts Configuration  
+```sh
+ - vi /etc/hosts 
+```
+ping 192.168.1.100 toolbox.local.net
+ping 192.168.1.101 master.local.net
+ping 192.168.1.110 infra.local.net
+ping 192.168.1.111 node1.local.net
+ping 192.168.1.112 node2.local.net
+
+### Adding yum EPEL repo 
+```sh
+ - yum --enablerepo=extras install epel-release
+```
 ### Docker
 
  - Install Docker and configure its storage:
