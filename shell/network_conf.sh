@@ -24,11 +24,18 @@ done
 # Functions
 #
 
+# 노드 추가 되면 수정해야함. 
 override_hosts_file() {
 info "Configure hosts file"
 cat << EOF > /etc/hosts
 127.0.0.1   localhost localhost.localdomain
 ::1         localhost localhost.localdomain
+
+192.168.1.100 toolbox.local.net
+192.168.1.101 master.local.net
+192.168.1.110 infra.local.net
+192.168.1.111 node1.local.net
+192.168.1.112 node2.local.net
 
 EOF
 }
