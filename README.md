@@ -1,6 +1,6 @@
 # OpenShift Origin Multi-Node Cluster
 
-An OpenShift 3.6.2 cluster of 5 machine:
+An OpenShift 3.6.1cluster of 5 machine:
 
 | Machine  | Hostname          | IP             | Description |
 | :------- | :----             | :---:          | :---- |
